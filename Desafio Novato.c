@@ -48,7 +48,7 @@ int main(void) {
             while ((ch = getchar()) != '\n' && ch != EOF) { /* limpar */ }
         }
 
-        // limpar o '\n' restante após scanf para que o próximo fgets funcione corretamente
+        // limpar o '\n' restante após scanf para que o próximo fgets 
         int ch;
         while ((ch = getchar()) != '\n' && ch != EOF) { /* limpar */ }
 
