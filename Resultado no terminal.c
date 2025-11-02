@@ -1,5 +1,9 @@
 /* Para facilitar a leitura dos resultados no terminal, este programa imprime uma mensagem simples.
-
+Como testar:
+no terminal, digite os comandos abaixo: 
+gcc -std=c11 -Wall -Wextra -o novato "Desafio Novato.c"
+./novato
+Exemplo que foi testados e funcionou:
 == Cadastro Inicial dos Territórios ==
 
 Território 1:
