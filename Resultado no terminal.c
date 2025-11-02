@@ -1,7 +1,6 @@
 /* Para facilitar a leitura dos resultados no terminal, este programa imprime uma mensagem simples.
 Como testar no terminal, digite os comandos abaixo:
 
-gcc -std=c11 -Wall -Wextra -o desafios Desafios.c
 ./desafios
 
 Exemplo que foi testados e funcionou:
@@ -125,5 +124,125 @@ Território 5
 -------------------------------
 Escolha o território atacante (1-5, 0 para sair): 0
 Saindo...
+
+
+
+DESAFIO MESTRE CONCLUÍDO:
+
+
+
+
+========== MAPA DO MUNDO ==========
+ 1. Índia           (Exército: Laranja    , Tropas:  3)
+ 2. Estados Unidos   (Exército: Vermelho   , Tropas:  2)
+ 3. Espanha          (Exército: Amarelo    , Tropas:  4)
+ 4. Brasil (Exército: Verde      , Tropas:  2)
+ 5. Argentina        (Exército: Azul       , Tropas:  2)
+===================================
+
+--- Menu ---
+1 - Atacar
+2 - Verificar Missão
+0 - Sair
+Escolha uma opção: 2
+Missão: Destruir todas as tropas do exército de cor 'Azul'
+Progresso: Em andamento
+Pressione Enter para voltar ao menu...
+
+========== MAPA DO MUNDO ==========
+ 1. Índia           (Exército: Laranja    , Tropas:  3)
+ 2. Estados Unidos   (Exército: Vermelho   , Tropas:  2)
+ 3. Espanha          (Exército: Amarelo    , Tropas:  4)
+ 4. Brasil           (Exército: Verde      , Tropas:  2)
+ 5. Argentina        (Exército: Azul       , Tropas:  2)
+===================================
+
+--- Menu ---
+1 - Atacar
+2 - Verificar Missão
+0 - Sair
+Escolha uma opção: 1
+Escolha o território atacante (1-5): 3
+Escolha o território defensor (1-5, diferente do atacante): 5
+Dados: Atacante(Espanha) -> 3 | Defensor(Argentina) -> 5
+Resultado: Defensor vence! Espanha perde 1 tropa.
+
+========== MAPA DO MUNDO ==========
+ 1. Índia           (Exército: Laranja    , Tropas:  3)
+ 2. Estados Unidos   (Exército: Vermelho   , Tropas:  2)
+ 3. Espanha          (Exército: Amarelo    , Tropas:  3)
+ 4. Brasil           (Exército: Verde      , Tropas:  2)
+ 5. Argentina        (Exército: Azul       , Tropas:  2)
+===================================
+
+--- Menu ---
+1 - Atacar
+2 - Verificar Missão
+0 - Sair
+Escolha uma opção: 1
+Escolha o território atacante (1-5): 1
+Escolha o território defensor (1-5, diferente do atacante): 5
+Dados: Atacante(Índia) -> 6 | Defensor(Argentina) -> 5
+Resultado: Atacante vence a rodada! Argentina perde 1 tropa.
+
+========== MAPA DO MUNDO ==========
+ 1. Índia           (Exército: Laranja    , Tropas:  3)
+ 2. Estados Unidos   (Exército: Vermelho   , Tropas:  2)
+ 3. Espanha          (Exército: Amarelo    , Tropas:  3)
+ 4. Brasil           (Exército: Verde      , Tropas:  2)
+ 5. Argentina        (Exército: Azul       , Tropas:  1)
+===================================
+
+--- Menu ---
+1 - Atacar
+2 - Verificar Missão
+0 - Sair
+Escolha uma opção: 1
+Escolha o território atacante (1-5): 5
+Escolha o território defensor (1-5, diferente do atacante): 1
+Dados: Atacante(Argentina) -> 4 | Defensor(Índia) -> 1
+Resultado: Atacante vence a rodada! Índia perde 1 tropa.
+
+========== MAPA DO MUNDO ==========
+ 1. Índia           (Exército: Laranja    , Tropas:  2)
+ 2. Estados Unidos   (Exército: Vermelho   , Tropas:  2)
+ 3. Espanha          (Exército: Amarelo    , Tropas:  3)
+ 4. Brasil           (Exército: Verde      , Tropas:  2)
+ 5. Argentina        (Exército: Azul       , Tropas:  1)
+===================================
+
+--- Menu ---
+1 - Atacar
+2 - Verificar Missão
+0 - Sair
+Escolha uma opção: 1
+Escolha o território atacante (1-5): 4
+Escolha o território defensor (1-5, diferente do atacante): 5
+Dados: Atacante(Brasil) -> 5 | Defensor(Argentina) -> 3
+Resultado: Atacante vence a rodada! Argentina perde 1 tropa.
+  Argentina foi conquistado por Brasil!
+
+=== MISSÃO CUMPRIDA! ===
+Missão: Destruir todas as tropas do exército de cor 'Azul'
+Progresso: Concluída
+Parabéns! Você completou a missão.
+Atribuindo nova missão...
+Missão: Destruir todas as tropas do exército de cor 'Verde'
+Progresso: Em andamento
+
+========== MAPA DO MUNDO ==========
+ 1. Índia           (Exército: Laranja    , Tropas:  2)
+ 2. Estados Unidos   (Exército: Vermelho   , Tropas:  2)
+ 3. Espanha          (Exército: Amarelo    , Tropas:  3)
+ 4. Brasil           (Exército: Verde      , Tropas:  1)
+ 5. Argentina        (Exército: Verde      , Tropas:  1)
+===================================
+
+--- Menu ---
+1 - Atacar
+2 - Verificar Missão
+0 - Sair
+Escolha uma opção: 0
+Saindo do jogo...
 
 */
